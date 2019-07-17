@@ -13,6 +13,7 @@
 		187A89CF22DF8A0100C314DD /* anim84kids.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 187A89CD22DF8A0100C314DD /* anim84kids.xcdatamodeld */; };
 		187A89D122DF8A0300C314DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187A89D022DF8A0300C314DD /* Assets.xcassets */; };
 		187A89D422DF8A0300C314DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187A89D222DF8A0300C314DD /* LaunchScreen.storyboard */; };
+		187A89FD22DFA25400C314DD /* animationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A89FC22DFA25400C314DD /* animationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		187A89D022DF8A0300C314DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		187A89D322DF8A0300C314DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		187A89D522DF8A0300C314DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187A89FC22DFA25400C314DD /* animationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				187A89C622DF8A0100C314DD /* AppDelegate.swift */,
 				187A89C822DF8A0100C314DD /* ViewController.swift */,
+				187A89FC22DFA25400C314DD /* animationViewController.swift */,
 				187A89CA22DF8A0100C314DD /* Main.storyboard */,
 				187A89D022DF8A0300C314DD /* Assets.xcassets */,
 				187A89D222DF8A0300C314DD /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				187A89C922DF8A0100C314DD /* ViewController.swift in Sources */,
 				187A89C722DF8A0100C314DD /* AppDelegate.swift in Sources */,
 				187A89CF22DF8A0100C314DD /* anim84kids.xcdatamodeld in Sources */,
+				187A89FD22DFA25400C314DD /* animationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
