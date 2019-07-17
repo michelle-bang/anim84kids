@@ -55,7 +55,7 @@
                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="xpa-iC-5CH" kind="show" id="sBx-hx-Baa"/>
+                                    <segue destination="xpa-iC-5CH" kind="show" id="p1r-KY-xkv"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -82,13 +82,13 @@
                                 <navigationItem title="ANIM8" id="Wo6-fC-hDk">
                                     <barButtonItem key="leftBarButtonItem" title="⬅️" id="jsb-Xf-o3i">
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="show" id="ELe-60-dDl"/>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="845-qB-o0B"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem key="rightBarButtonItem" systemItem="add" id="FMI-gf-dau">
                                         <color key="tintColor" red="0.39964252710342407" green="0.50967937707901001" blue="0.61198943853378296" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
-                                            <segue destination="cnu-ZG-fgw" kind="show" id="VRv-mV-pCT"/>
+                                            <segue destination="cnu-ZG-fgw" kind="show" id="xj7-8y-cvC"/>
                                         </connections>
                                     </barButtonItem>
                                 </navigationItem>
@@ -129,7 +129,7 @@
                                 <items>
                                     <barButtonItem title="⬅️" id="pP8-dk-7FU">
                                         <connections>
-                                            <segue destination="xpa-iC-5CH" kind="show" id="UJF-fK-7Xw"/>
+                                            <segue destination="xpa-iC-5CH" kind="show" id="cuk-WU-05U"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem id="kBB-aN-sls"/>
@@ -147,8 +147,7 @@
                                     <color key="titleColor" red="0.23468810319900513" green="0.5643036961555481" blue="0.96828371286392212" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="button1Tapped:" destination="cnu-ZG-fgw" eventType="touchUpInside" id="aAq-4o-MQK"/>
-                                    <segue destination="k5E-TD-joG" kind="show" id="mQG-DQ-Wzj"/>
+                                    <segue destination="k5E-TD-joG" kind="show" id="VZr-XL-Cts"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RW8-R4-dIB">
@@ -185,22 +184,21 @@
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="1fn-Q9-PCQ"/>
                     <connections>
-                        <outlet property="button1" destination="rvY-Mk-eq5" id="UdC-z6-WJ0"/>
-                        <outlet property="leftLeg" destination="kgm-el-0nQ" id="TrW-J6-c8t"/>
-                        <outlet property="mainImage" destination="kZp-rg-BpD" id="kJG-ag-a0I"/>
-                        <outlet property="rightArm" destination="nSw-Em-NVk" id="Ynp-Us-4Fc"/>
-                        <outlet property="rightLeg" destination="RW8-R4-dIB" id="Gnh-JU-2D3"/>
-                        <outlet property="wink" destination="P7D-a6-u5t" id="dDw-du-uQv"/>
+                        <outlet property="leftArm" destination="rvY-Mk-eq5" id="Tgh-h9-9NI"/>
+                        <outlet property="leftLeg" destination="kgm-el-0nQ" id="ULj-Qw-SZO"/>
+                        <outlet property="rightArm" destination="nSw-Em-NVk" id="4xm-n7-Lxf"/>
+                        <outlet property="rightLeg" destination="RW8-R4-dIB" id="GdK-0C-sHB"/>
+                        <outlet property="wink" destination="P7D-a6-u5t" id="rKI-RN-xkb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oXR-1q-Nsv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1608.6956521739132" y="115.84821428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--Animation View Controller-->
         <scene sceneID="KZO-Rt-INy">
             <objects>
-                <viewController id="k5E-TD-joG" sceneMemberID="viewController">
+                <viewController id="k5E-TD-joG" customClass="animationViewController" customModule="anim84kids" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fse-VH-Xtd" userLabel="leftArmUp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -237,9 +235,6 @@
                                 <state key="normal" title="left arm ">
                                     <color key="titleColor" red="0.2346881032" green="0.56430369619999998" blue="0.96828371290000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <connections>
-                                    <action selector="button1Tapped:" destination="cnu-ZG-fgw" eventType="touchUpInside" id="Nf1-RZ-RwN"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1sf-By-iQ5">
                                 <rect key="frame" x="20" y="368" width="114" height="113"/>
@@ -262,6 +257,7 @@
         <image name="Unknown" width="225" height="225"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="UJF-fK-7Xw"/>
+        <segue reference="xj7-8y-cvC"/>
+        <segue reference="cuk-WU-05U"/>
     </inferredMetricsTieBreakers>
 </document>
