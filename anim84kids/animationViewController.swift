@@ -22,12 +22,14 @@ class animationViewController: UIViewController {
     @IBOutlet var leftLegUpView: UIView!
     @IBOutlet var RightArmUpView: UIView!
     @IBOutlet var RightLegUpView: UIView!
-    @IBOutlet weak var WinkView: UINavigationBar!
+    @IBOutlet var winkView: UIView!
+    @IBOutlet var FirstStickView: UIView!
     
     
     
     
-    var arrayOfSticks = (String)()
+    
+    var arrayOfSticks = [String]()
     
     func addArray() {
         if leftArm.isTouchInside {
@@ -44,23 +46,30 @@ class animationViewController: UIViewController {
     }
     func video() {
         if playButton.isTouchInside
-        {
-            for 0..<arrayOfSticks{
-                if arrayOfSticks.String = "Left Arm"{
-                    performSegue(withIdentifier: , sender: <#T##Any?#>)
-                }
+        {for q in 0..<arrayOfSticks.count{
+            if arrayOfSticks[q] == "Left Arm"{
+                //Segue to LeftArmUpView
+            } else if arrayOfSticks[q] == "Right Arm"{
+                //Segue to RightArmUpView
+            }else if arrayOfSticks[q] == "Left Leg"{
+                //Segue to LeftLegUpView
+            }else if arrayOfSticks[q] == "Right Leg"{
+                //Segue to RightLegUpView
+            }else if arrayOfSticks[q] == "wink"{
+                //Segue to WinkView
             }
-        }
+            }
         
     }
     
     
     
     
-func viewDidLoad() {
-        super.viewDidLoad
+        func viewDidLoad() {
+        super.viewDidLoad()
 
 }
    
 }
 
+}

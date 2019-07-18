@@ -246,6 +246,7 @@
                     </view>
                     <connections>
                         <outlet property="WinkView" destination="Tdx-1l-ftQ" id="YWp-zo-RC5"/>
+                        <outlet property="winkView" destination="5UR-Rf-8fQ" id="8rX-nA-0nh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fcF-Hy-ePz" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -425,11 +426,11 @@
             </objects>
             <point key="canvasLocation" x="2566.666666666667" y="145.98214285714286"/>
         </scene>
-        <!--View Controller-->
+        <!--Animation View Controller-->
         <scene sceneID="dtF-FP-WSB">
             <objects>
-                <viewController id="pNd-ZO-gFP" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="qSd-Rz-T9x">
+                <viewController id="pNd-ZO-gFP" customClass="animationViewController" customModule="anim84kids" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qSd-Rz-T9x" customClass="animatio">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -454,6 +455,10 @@
                         <color key="backgroundColor" red="0.91895035670000003" green="0.87506949440000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="64N-T7-Q2A"/>
                     </view>
+                    <connections>
+                        <outlet property="FirstStick" destination="qSd-Rz-T9x" id="Hyc-5z-BKO"/>
+                        <outlet property="FirstStickView" destination="qSd-Rz-T9x" id="huk-hO-bG8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z4N-Jg-scT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
