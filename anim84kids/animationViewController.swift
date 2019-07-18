@@ -16,27 +16,33 @@ class animationViewController: UIViewController {
     @IBOutlet weak var rightLeg: UIButton!
     @IBOutlet weak var wink: UIButton!
     
+    
+    var arrayOfSticks = (String)()
+    
+    func addArray() {
+        if leftArm.isTouchInside {
+            arrayOfSticks.append("Left Arm")
+        }else if rightArm.isTouchInside {
+            arrayOfSticks.append("Right Arm")
+        }else if leftLeg.isTouchInside{
+            arrayOfSticks.append("Left Leg")
+        }else if rightLeg.isTouchInside {
+            arrayOfSticks.append("Right Leg")
+        }else if wink.isTouchInside{
+            arrayOfSticks.append("Wink")
+        }
+    }
+//    func getPhoto() {
+//        print (arrayOfSticks)
+//        for in 0..<arrayOfSticks{
+//            if String =
+//        }
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+
     }
-    var animation = [String]()
-    
-    func arrayButtons() {
-        if leftArm is UITapGestureRecognizer{
-            animation.append("leftArm")
-        } else if rightArm is UITapGestureRecognizer{
-            animation.append("rightArm")
-        } else if leftLeg is UITapGestureRecognizer{
-            animation.append("leftLeg")
-        } else if rightLeg is UITapGestureRecognizer {
-            animation.append("rightArm")
-        } else if wink is UITapGestureRecognizer{
-            animation.append("wink")
-        }
-        
-    }
-    
-        
-    
-    
+   
 }
