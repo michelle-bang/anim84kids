@@ -67,6 +67,191 @@
             </objects>
             <point key="canvasLocation" x="20" y="125"/>
         </scene>
+        <!--Animation View Controller-->
+        <scene sceneID="UJQ-te-iyR">
+            <objects>
+                <viewController id="Q2I-29-lwx" customClass="animationViewController" customModule="anim84kids" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nAs-1R-H6P">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OHU-oI-TAT">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Title" id="Ls6-08-J3S">
+                                        <barButtonItem key="leftBarButtonItem" title="⬅️" id="p3A-HT-Fom">
+                                            <connections>
+                                                <segue destination="cnu-ZG-fgw" kind="show" id="5eq-Sd-qvT"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="StickLeftArmUp3" translatesAutoresizingMaskIntoConstraints="NO" id="c09-Lh-Ooz">
+                                <rect key="frame" x="20" y="120" width="374" height="706"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91895035670000003" green="0.87506949440000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="rnE-T7-qck"/>
+                    </view>
+                    <connections>
+                        <outlet property="leftArmUpView" destination="nAs-1R-H6P" id="sXc-er-7wN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cu6-wq-sK7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="43.478260869565219" y="761.38392857142856"/>
+        </scene>
+        <!--Animation View Controller-->
+        <scene sceneID="gBi-Xt-bsp">
+            <objects>
+                <viewController id="u8C-tK-FiP" customClass="animationViewController" customModule="anim84kids" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="66L-2X-vSj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Usl-fS-yAc">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Video" id="wsB-A8-6Gf">
+                                        <barButtonItem key="leftBarButtonItem" title="⬅️" id="zOe-v2-bV9">
+                                            <connections>
+                                                <segue destination="cnu-ZG-fgw" kind="show" id="Xj1-kR-2Oe"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="StickLeftLegUp3" translatesAutoresizingMaskIntoConstraints="NO" id="5Jy-Ij-hgO">
+                                <rect key="frame" x="20" y="117" width="374" height="680"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91895035670000003" green="0.87506949440000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="bkj-NN-AjF"/>
+                    </view>
+                    <connections>
+                        <outlet property="leftLegUpView" destination="66L-2X-vSj" id="mAe-c8-kDE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9nP-OT-BhB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="828.98550724637687" y="769.41964285714278"/>
+        </scene>
+        <!--Animation View Controller-->
+        <scene sceneID="8vT-Ff-fBs">
+            <objects>
+                <viewController id="O5a-eg-5eW" customClass="animationViewController" customModule="anim84kids" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fnM-Ua-6b6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZVe-p4-S0r">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Video" id="cHJ-Wh-FeT">
+                                        <barButtonItem key="leftBarButtonItem" title="⬅️" id="RVo-TE-rFF">
+                                            <connections>
+                                                <segue destination="cnu-ZG-fgw" kind="show" id="imB-J0-gko"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="StickRightArmUp3" translatesAutoresizingMaskIntoConstraints="NO" id="bsN-Vy-KAd">
+                                <rect key="frame" x="20" y="114" width="374" height="696"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91895035670000003" green="0.87506949440000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Byp-rk-mzX"/>
+                    </view>
+                    <connections>
+                        <outlet property="RightArmUpView" destination="fnM-Ua-6b6" id="QbX-fw-SS2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sj3-V1-EVH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1549.2753623188407" y="771.42857142857144"/>
+        </scene>
+        <!--Animation View Controller-->
+        <scene sceneID="ZIK-Yw-1eo">
+            <objects>
+                <viewController id="s9e-wQ-Cmz" customClass="animationViewController" customModule="anim84kids" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RNf-B2-6Qk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c9D-DK-cPH">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Video" id="glJ-xA-FWf">
+                                        <barButtonItem key="leftBarButtonItem" title="⬅️" id="5HL-qS-WD3">
+                                            <connections>
+                                                <segue destination="cnu-ZG-fgw" kind="show" id="AbO-qt-zzc"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="StickRightLegUp3" translatesAutoresizingMaskIntoConstraints="NO" id="vhw-hf-thx">
+                                <rect key="frame" x="20" y="105" width="374" height="692"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91895035670000003" green="0.87506949440000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="BWw-HG-YRn"/>
+                    </view>
+                    <connections>
+                        <outlet property="RightLegUpView" destination="RNf-B2-6Qk" id="jgr-xm-Pxk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vpM-IX-rvg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2201.449275362319" y="782.8125"/>
+        </scene>
+        <!--Animation View Controller-->
+        <scene sceneID="ag0-DM-y3F">
+            <objects>
+                <viewController id="jxU-Tv-pju" customClass="animationViewController" customModule="anim84kids" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5UR-Rf-8fQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tdx-1l-ftQ">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Video" id="KMJ-mi-lgs">
+                                        <barButtonItem key="leftBarButtonItem" title="⬅️" id="MaJ-7h-ZK6">
+                                            <connections>
+                                                <segue destination="cnu-ZG-fgw" kind="show" id="uxM-uA-Bqu"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="StickWink" translatesAutoresizingMaskIntoConstraints="NO" id="kqs-PD-2ha">
+                                <rect key="frame" x="20" y="106" width="374" height="674"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91895035670000003" green="0.87506949440000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="LuY-x3-a0x"/>
+                    </view>
+                    <connections>
+                        <outlet property="WinkView" destination="Tdx-1l-ftQ" id="YWp-zo-RC5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fcF-Hy-ePz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3011.594202898551" y="793.52678571428567"/>
+        </scene>
         <!--Back-->
         <scene sceneID="Xpm-FM-nW6">
             <objects>
@@ -171,6 +356,15 @@
                                     <color key="titleColor" red="0.23468810319900513" green="0.5643036961555481" blue="0.96828371286392212" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sqR-CF-nWF">
+                                <rect key="frame" x="257" y="657" width="64" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="Play"/>
+                                <connections>
+                                    <segue destination="C7O-xv-Grz" kind="show" id="hEH-Sz-tMa"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.91895035670000003" green="0.87506949440000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="OLI-aR-N7E"/>
@@ -188,6 +382,83 @@
             </objects>
             <point key="canvasLocation" x="1608.6956521739132" y="115.84821428571428"/>
         </scene>
+        <!--Animation View Controller-->
+        <scene sceneID="36L-Bo-TX3">
+            <objects>
+                <viewController id="C7O-xv-Grz" customClass="animationViewController" customModule="anim84kids" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6AY-L9-SC5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FirstStick" translatesAutoresizingMaskIntoConstraints="NO" id="wY7-l7-Jy0">
+                                <rect key="frame" x="20" y="86" width="374" height="586"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GBw-42-ohT">
+                                <rect key="frame" x="175" y="680" width="64" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="Play"/>
+                            </button>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tj2-9U-7KI">
+                                <rect key="frame" x="0.0" y="818" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="⬅️" id="NCk-BL-6Ow">
+                                        <connections>
+                                            <segue destination="cnu-ZG-fgw" kind="show" id="5Yi-f6-sqf"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91895035670000003" green="0.87506949440000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="hGI-iw-Jm4"/>
+                    </view>
+                    <connections>
+                        <outlet property="playButton" destination="GBw-42-ohT" id="ASF-MX-EdO"/>
+                        <outlet property="playScreen" destination="6AY-L9-SC5" id="8dh-X2-14G"/>
+                        <outlet property="playVideo" destination="wY7-l7-Jy0" id="vaF-YW-mor"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AKz-q2-LoI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2566.666666666667" y="145.98214285714286"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dtF-FP-WSB">
+            <objects>
+                <viewController id="pNd-ZO-gFP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qSd-Rz-T9x">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OF3-Xe-8AD">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Videp" id="aib-eN-mzh">
+                                        <barButtonItem key="leftBarButtonItem" title="⬅️" id="1PV-89-G0P">
+                                            <connections>
+                                                <segue destination="cnu-ZG-fgw" kind="show" id="gH2-N1-uCS"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FirstStick" translatesAutoresizingMaskIntoConstraints="NO" id="7r6-sz-9W3">
+                                <rect key="frame" x="20" y="121" width="374" height="619"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91895035670000003" green="0.87506949440000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="64N-T7-Q2A"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z4N-Jg-scT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3546.376811594203" y="150"/>
+        </scene>
     </scenes>
     <resources>
         <image name="FirstStick" width="636" height="1284"/>
@@ -198,6 +469,7 @@
         <image name="StickWink" width="636" height="1284"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="gH2-N1-uCS"/>
         <segue reference="cuk-WU-05U"/>
     </inferredMetricsTieBreakers>
 </document>

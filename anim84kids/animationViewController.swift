@@ -15,6 +15,16 @@ class animationViewController: UIViewController {
     @IBOutlet weak var leftLeg: UIButton!
     @IBOutlet weak var rightLeg: UIButton!
     @IBOutlet weak var wink: UIButton!
+    @IBOutlet weak var playVideo: UIImageView!
+    @IBOutlet weak var playButton: UIButton!
+    @IBOutlet var playScreen: UIView!
+    @IBOutlet var leftArmUpView: UIView!
+    @IBOutlet var leftLegUpView: UIView!
+    @IBOutlet var RightArmUpView: UIView!
+    @IBOutlet var RightLegUpView: UIView!
+    @IBOutlet weak var WinkView: UINavigationBar!
+    
+    
     
     
     var arrayOfSticks = (String)()
@@ -32,17 +42,25 @@ class animationViewController: UIViewController {
             arrayOfSticks.append("Wink")
         }
     }
-//    func getPhoto() {
-//        print (arrayOfSticks)
-//        for in 0..<arrayOfSticks{
-//            if String =
-//        }
+    func video() {
+        if playButton.isTouchInside
+        {
+            for 0..<arrayOfSticks{
+                if arrayOfSticks.String = "Left Arm"{
+                    performSegue(withIdentifier: , sender: <#T##Any?#>)
+                }
+            }
+        }
         
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    
+    
+    
+func viewDidLoad() {
+        super.viewDidLoad
 
-    }
+}
    
 }
+
